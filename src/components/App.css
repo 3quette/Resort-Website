@@ -1,0 +1,333 @@
+.App{
+  text-align: center;
+  
+}
+body{
+    background-image: url(https://newcastlebeach.org/images/resort-3.jpg);
+    background-repeat: repeat-y;
+    background-position: top;
+}
+.header-div{
+  background-image: url(http://cdn9.dissolve.com/p/D120_89_030/D120_89_030_0004_600.jpg);
+  background-position: bottom;
+  height: 100px;
+  line-height: 0.6;
+}
+.logo{
+    height: 100px;
+    padding-left: 20px;
+    padding-bottom: 20px; 
+}
+.slogan{
+        color: #e3e8e4;
+        font-size: 30px;
+        font-family: "Lucida Handwriting", cursive;
+        float: right;
+        line-height: 1;
+        margin-right: 150px;
+}
+.Navigation-Bar{
+        list-style-type: none;
+        margin: 0;
+        padding: 0;
+        overflow: hidden;
+        background-color: #ebebeb;
+        width: 100%;  
+}
+.navbar-items{
+        display: inline;
+     	color: hsl(0, 3%, 29%);
+     	float: left;
+     	padding: 15px;
+     	border-right: inset;
+     	border-right-width: 1px;
+     	border-right-color: #d9d7d7;
+     	text-align: center;
+     	text-decoration: none;
+        font-size: 18px;
+        font-family: "Didot", serif;
+}
+.navbar-items:hover{  
+    background-color: #adadad;
+}
+#map{
+    margin-left:8%;
+    margin-top: 10px;
+}
+.contact{
+        border: solid #dff230;
+       	margin-right: 20px;
+        margin-top: 5px;
+       	margin-left: 10px;
+        background:rgba(0,0,0,0.7);
+       	padding-bottom: 100px;
+}
+.contact_us_heading{
+    border: solid #dff230;
+    background:rgba(0,0,0,0.7);
+    color: #ffffff;
+    margin-top: 20px;
+    margin-left: 35%;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 55px;
+    width:30%;
+}
+#headings{
+    font-size: 35px;
+    color: #ffffff;
+}
+#contact_info{
+    color: #ffffff;
+}
+.footerMainDiv{
+    background-color: #e6e6e6;
+    margin-top: 10px;
+    padding-bottom: 40px;
+}
+#footer_logo{
+    border-bottom: 1px solid #adadad;
+}
+#footer_heads{
+    font-size: 20px;
+}
+.footer_table{
+    width:100%;
+    margin-bottom: 50px;
+}
+#footer_links{
+    text-align: center;
+}
+#rights{
+    text-align: center;
+    font-size: 15px;
+}
+#login_form{
+  background-color: white;
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding-left: 10px;
+  padding-bottom:10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  border-radius: 5px;
+  font-family: cursive;
+  position: fixed;
+}
+#form_header{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    margin-bottom: 10px;
+    white-space: nowrap;
+}
+
+#closebutton{
+    cursor: pointer;
+    background: none;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    float:right;
+}
+#signin_button{
+    cursor: pointer;
+    background: none;
+    border: 0.5px solid;
+    float:right;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-family: "Didot", serif;
+    color: #4d4949;
+    margin-top: 10px;
+    margin-right: 10px;
+    border-radius: 5px;
+}
+#signin_button:hover{
+    background-color: #adadad;
+}
+#donebutton{
+    background-color:#287b8a ;
+    font-size: 20px;
+    color:white;
+    text-decoration: none;
+    font-family: cursive;
+    border: 0.5px solid;
+    border-radius: 5px;
+    cursor: pointer;
+}
+#popup{
+  background-image: url(https://res.cloudinary.com/simplotel/image/upload/w_5000,h_1810/x_891,y_0,w_3218,h_1810,r_0,c_crop,q_60,fl_progressive/w_1366,c_fit,f_auto/kadkani-riverside-resort-coorg/Clubhouse_yhudrc);
+  top: 50%;
+  left:50%;
+  transform: translate(-50%,-50%);
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom:10px;
+  padding-bottom: 20px;
+  position: fixed;
+  font-family: "Didot", serif;
+  z-index: 150;
+}
+#popup_img{
+    border: 2px solid ;
+    border-color: #adadad;
+    position: relative;
+    margin-left: 20px;
+  }
+#popup_price{
+    position: absolute;
+    bottom: 0;
+    background: rgb(0, 0, 0);
+    background: rgba(0, 0, 0, 0.5);
+    width: 500px;
+    color: white;
+  }
+#popup_img2{
+    border: 2px solid ;
+    border-color: #adadad;
+    position: relative;
+    margin-left: 50px;
+}  
+.home_para{
+    color: #ededed;
+   text-align: left;
+   margin-left: 5px;
+   font-size: 25px;
+  }
+#welcome{
+    background:rgba(0,0,0,0.7);
+    padding-top: 25px;
+    margin-top: 10px;
+    padding-bottom: 30px;
+    border: solid #dff230;
+  }
+#caption{
+    font-size: 50px;
+    margin-bottom: 0px;
+    color: #ffffff;
+   text-align: center;
+   margin-left: 5px;
+  }
+#welcome_head{
+    background: rgba(0,0,0,0.6);
+    width: 50%;
+    padding-top: 20px;
+    padding-bottom: 20px;  
+   border-style: solid;
+   border-color: #dff230;
+  }
+#family_resort{
+    background:rgba(0,0,0,0.7);
+    height: 400px;
+  }
+
+.head{
+  padding-left: 10px;
+  color: #ffffff;
+  font-size: 35px;
+  }
+.para{
+  padding-left: 10px;
+  font-size: 17px;
+  color: #ffffff;
+      }
+#golf_course{
+  background:rgba(0,0,0,0.7);
+  height: 400px;
+  }  
+#amusement{
+  background:rgba(0,0,0,0.7);
+  height: 400px;
+  }  
+.home_pictures{
+  float: right;
+  margin-right: 20px;
+  border-style: solid;
+  border-color: #dff230;
+}
+#slider_txt1{
+  position: absolute;
+  background:rgba(0,0,0,0.5);
+  color: #ffffff;
+  z-index: 100;
+  top:50;
+  left:50;
+  font-size: 18.6px;
+  padding-right: 20px;
+  padding-left: 20px;
+}
+#picture{
+  margin-top: 5px;
+}
+#about_conatainer{
+  background:rgba(0,0,0,0.7);
+  margin-top: 0;
+  padding-bottom:20%;
+  padding-top: 20px;
+}
+.head{
+  padding-left: 10px;
+  color: #ffffff;
+}
+.about_content{
+  padding-left: 10px;
+  padding-right: 10px;
+  color: #ffffff;
+  font-size: 17px;
+}
+#about_head{
+  background: rgba(0,0,0,0.6);
+  width: 30%;
+  border-style: solid;
+  border-color: #dff230;
+}
+#about_us_head{
+  color: #ffffff;
+  font-size: 55px;
+}
+.about_images{
+  float: right;
+  border-style: solid;
+  border-color: #dff230;
+}
+#text{
+  position: absolute;
+  top: 30%;
+  left: 20px;
+  background:rgba(0,0,0,0.6);
+  color: #ffffff;
+  padding:20px;
+}
+#link{
+  position: absolute;
+  bottom: 60px;
+  right: 30px;
+  background:rgba(0,0,0,0.6);
+  color: #ffffff;
+  padding: 20px;
+}
+a{
+  color: #ffffff;
+}
+#info{
+  top: 50%;
+  left:50%;
+  background-color: aqua;
+  transform: translate(-50%,-50%);
+  padding-left: 10px;
+  padding-right: 30px;
+  padding-bottom:10px;
+  position: fixed;
+  color:#000000;
+  font-family: "Didot", serif;
+  z-index: 150;
+}
+#info_button{
+  background: none;
+    outline: none;
+    border: none;
+}
